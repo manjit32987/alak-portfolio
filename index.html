@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Alak Das | VLSI Designer & Embedded Engineer</title>
+
+    <meta name="description"
+          content="Portfolio of Alak Das, B.Tech 4th Year VLSI Designer and Embedded Engineer.">
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- ================= NAVBAR ================= -->
+
+<header class="navbar">
+
+    <div class="nav-container">
+
+        <a href="#home" class="logo">
+            <span>&lt;</span>ALAK<span>/&gt;</span>
+        </a>
+
+        <nav id="nav-menu">
+
+            <a href="#home" class="nav-link active">Home</a>
+            <a href="#about" class="nav-link">About</a>
+            <a href="#skills" class="nav-link">Skills</a>
+            <a href="#projects" class="nav-link">Projects</a>
+            <a href="#experience" class="nav-link">Experience</a>
+            <a href="#contact" class="nav-link">Contact</a>
+
+        </nav>
+
+        <button class="menu-btn" id="menu-btn">
+            ☰
+        </button>
+
+    </div>
+
+</header>
+
+
+<!-- ================= HERO ================= -->
+
+<section id="home" class="hero">
+
+    <div class="hero-grid"></div>
+
+    <div class="hero-content">
+
+        <p class="terminal-line">
+            <span class="green">01</span> / HELLO WORLD
+        </p>
+
+        <h1>
+            Hi, I am  <span>Alak Das</span>
+        </h1>
+
+        <h2>
+            VLSI Designer
+            <span class="separator">|</span>
+            Embedded Engineer
+        </h2>
+
+        <p class="hero-description">
+
+            B.Tech 4th Year engineering student passionate about
+            <strong>VLSI Design, Embedded Systems, Digital Electronics
+            and Hardware Development.</strong>
+
+            I build practical hardware and embedded solutions by combining
+            electronics, programming and system design.
+
+        </p>
+
+        <div class="hero-buttons">
+
+            <a href="#projects" class="btn primary">
+                View My Work →
+            </a>
+
+            <a href="#contact" class="btn secondary">
+                Contact Me
+            </a>
+
+        </div>
+
+        <div class="social-links">
+
+            <a href="#" target="_blank">GitHub</a>
+            <a href="#" target="_blank">LinkedIn</a>
+            <a href="#" target="_blank">Email</a>
+
+        </div>
+
+    </div>
+
+
+    <!-- PROFILE PHOTO -->
+
+    <div class="chip-container">
+
+        <div class="photo-frame">
+            <img src="real_alak.jpg" alt="Alak Das portrait" class="profile-photo">
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= ABOUT ================= -->
+
+<section id="about" class="section">
+
+    <div class="section-heading">
+
+        <p>01 — ABOUT ME</p>
+
+        <h2>
+            Engineering the
+            <span>Future</span>
+        </h2>
+
+    </div>
+
+    <div class="about-grid">
+
+        <div class="about-text">
+
+            <p>
+                I'm <strong>Alak Das</strong>, a B.Tech 4th Year
+                engineering student with a strong interest in
+                <strong>VLSI Design and Embedded Systems.</strong>
+            </p>
+
+            <p>
+                My interests span from digital logic design and
+                Verilog/SystemVerilog to microcontrollers, PCB design,
+                sensors and embedded software.
+            </p>
+
+            <p>
+                I enjoy understanding how hardware works at the
+                fundamental level and turning ideas into functional
+                electronic systems.
+            </p>
+
+            <div class="about-stats">
+
+                <div>
+                    <strong>04+</strong>
+                    <span>Years Engineering</span>
+                </div>
+
+                <div>
+                    <strong>10+</strong>
+                    <span>Projects</span>
+                </div>
+
+                <div>
+                    <strong>∞</strong>
+                    <span>Curiosity</span>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="code-card">
+
+            <div class="code-header">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+<pre><code><span class="purple">module</span> <span class="blue">alak_das</span> (
+
+    <span class="green">input</span>  wire clk,
+    <span class="green">input</span>  wire reset,
+
+    <span class="green">output</span> wire design
+
+);
+
+    <span class="purple">always</span> @(posedge clk) begin
+
+        <span class="purple">if</span> (reset)
+            design <= <span class="orange">1'b0</span>;
+
+        <span class="purple">else</span>
+            design <= <span class="orange">1'b1</span>;
+
+    <span class="purple">end</span>
+
+<span class="purple">endmodule</span></code></pre>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= SKILLS ================= -->
+
+<section id="skills" class="section dark-section">
+
+    <div class="section-heading">
+
+        <p>02 — TECHNICAL SKILLS</p>
+
+        <h2>
+            My <span>Toolkit</span>
+        </h2>
+
+    </div>
+
+
+    <div class="skills-grid">
+
+        <div class="skill-card">
+
+            <div class="skill-icon">
+                ◈
+            </div>
+
+            <h3>VLSI Design</h3>
+
+            <p>
+                Digital logic, RTL design and hardware description
+                languages.
+            </p>
+
+            <div class="skill-tags">
+                <span>Verilog</span>
+                <span>SystemVerilog</span>
+                <span>RTL</span>
+                <span>Digital Logic</span>
+            </div>
+
+        </div>
+
+
+        <div class="skill-card">
+
+            <div class="skill-icon">
+                ⚡
+            </div>
+
+            <h3>Embedded Systems</h3>
+
+            <p>
+                Microcontrollers, sensors, communication protocols
+                and firmware development.
+            </p>
+
+            <div class="skill-tags">
+                <span>Embedded C</span>
+                <span>Arduino</span>
+                <span>STM32</span>
+                <span>ESP32</span>
+            </div>
+
+        </div>
+
+
+        <div class="skill-card">
+
+            <div class="skill-icon">
+                ⬡
+            </div>
+
+            <h3>Programming</h3>
+
+            <p>
+                Software development and automation for hardware
+                systems.
+            </p>
+
+            <div class="skill-tags">
+                <span>C</span>
+                <span>C++</span>
+                <span>Python</span>
+                <span>Git</span>
+            </div>
+
+        </div>
+
+
+        <div class="skill-card">
+
+            <div class="skill-icon">
+                ▣
+            </div>
+
+            <h3>Hardware Design</h3>
+
+            <p>
+                PCB development, circuit design and hardware
+                prototyping.
+            </p>
+
+            <div class="skill-tags">
+                <span>PCB Design</span>
+                <span>KiCad</span>
+                <span>EasyEDA</span>
+                <span>Simulation</span>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="skill-bars">
+
+        <div class="skill-bar">
+
+            <div>
+                <span>Digital Electronics</span>
+                <span>90%</span>
+            </div>
+
+            <div class="bar">
+                <span style="width:90%"></span>
+            </div>
+
+        </div>
+
+
+        <div class="skill-bar">
+
+            <div>
+                <span>Embedded Systems</span>
+                <span>85%</span>
+            </div>
+
+            <div class="bar">
+                <span style="width:85%"></span>
+            </div>
+
+        </div>
+
+
+        <div class="skill-bar">
+
+            <div>
+                <span>VLSI / RTL Design</span>
+                <span>80%</span>
+            </div>
+
+            <div class="bar">
+                <span style="width:80%"></span>
+            </div>
+
+        </div>
+
+
+        <div class="skill-bar">
+
+            <div>
+                <span>Programming</span>
+                <span>82%</span>
+            </div>
+
+            <div class="bar">
+                <span style="width:82%"></span>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= PROJECTS ================= -->
+
+<section id="projects" class="section">
+
+    <div class="section-heading">
+
+        <p>03 — PROJECTS</p>
+
+        <h2>
+            Things I've <span>Built</span>
+        </h2>
+
+    </div>
+
+
+    <div class="projects-grid">
+
+
+        <!-- PROJECT 1 -->
+
+        <article class="project-card">
+
+            <div class="project-number">
+                01
+            </div>
+
+            <div class="project-icon">
+                FPGA
+            </div>
+
+            <h3>
+                FPGA Based Digital System
+            </h3>
+
+            <p>
+                Designed and implemented a digital system using
+                Verilog HDL and FPGA development tools.
+            </p>
+
+            <div class="project-tech">
+
+                <span>Verilog</span>
+                <span>FPGA</span>
+                <span>RTL</span>
+
+            </div>
+
+            <a href="#" class="project-link">
+                View Project →
+            </a>
+
+        </article>
+
+
+        <!-- PROJECT 2 -->
+
+        <article class="project-card">
+
+            <div class="project-number">
+                02
+            </div>
+
+            <div class="project-icon">
+                MCU
+            </div>
+
+            <h3>
+                Smart Embedded System
+            </h3>
+
+            <p>
+                Microcontroller-based embedded system integrating
+                sensors, communication modules and real-time control.
+            </p>
+
+            <div class="project-tech">
+
+                <span>STM32</span>
+                <span>C</span>
+                <span>Sensors</span>
+
+            </div>
+
+            <a href="#" class="project-link">
+                View Project →
+            </a>
+
+        </article>
+
+
+        <!-- PROJECT 3 -->
+
+        <article class="project-card">
+
+            <div class="project-number">
+                03
+            </div>
+
+            <div class="project-icon">
+                PCB
+            </div>
+
+            <h3>
+                Custom PCB Design
+            </h3>
+
+            <p>
+                Designed a custom PCB including schematic,
+                component selection, routing and hardware testing.
+            </p>
+
+            <div class="project-tech">
+
+                <span>KiCad</span>
+                <span>PCB</span>
+                <span>Electronics</span>
+
+            </div>
+
+            <a href="#" class="project-link">
+                View Project →
+            </a>
+
+        </article>
+
+
+        <!-- PROJECT 4 -->
+
+        <article class="project-card">
+
+            <div class="project-number">
+                04
+            </div>
+
+            <div class="project-icon">
+                IoT
+            </div>
+
+            <h3>
+                IoT Monitoring System
+            </h3>
+
+            <p>
+                Connected embedded monitoring platform using
+                sensors and wireless communication.
+            </p>
+
+            <div class="project-tech">
+
+                <span>ESP32</span>
+                <span>IoT</span>
+                <span>Python</span>
+
+            </div>
+
+            <a href="#" class="project-link">
+                View Project →
+            </a>
+
+        </article>
+
+    </div>
+
+</section>
+
+
+<!-- ================= EXPERIENCE ================= -->
+
+<section id="experience" class="section dark-section">
+
+    <div class="section-heading">
+
+        <p>04 — EXPERIENCE</p>
+
+        <h2>
+            My <span>Journey</span>
+        </h2>
+
+    </div>
+
+
+    <div class="timeline">
+
+        <div class="timeline-item">
+
+            <div class="timeline-dot"></div>
+
+            <div class="timeline-content">
+
+                <span class="timeline-date">
+                    2023 — Present
+                </span>
+
+                <h3>
+                    B.Tech — Electronics / VLSI
+                </h3>
+
+                <h4>
+                    Engineering College
+                </h4>
+
+                <p>
+                    Pursuing B.Tech with focus on digital electronics,
+                    VLSI design, embedded systems and hardware development.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="timeline-item">
+
+            <div class="timeline-dot"></div>
+
+            <div class="timeline-content">
+
+                <span class="timeline-date">
+                    Academic Projects
+                </span>
+
+                <h3>
+                    Embedded Systems & Hardware Development
+                </h3>
+
+                <p>
+                    Worked on multiple electronics projects involving
+                    microcontrollers, sensors, communication protocols
+                    and PCB design.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= EDUCATION ================= -->
+
+<section class="section education">
+
+    <div class="section-heading">
+
+        <p>05 — EDUCATION</p>
+
+        <h2>
+            Academic <span>Background</span>
+        </h2>
+
+    </div>
+
+
+    <div class="education-card">
+
+        <div class="education-year">
+            2023 — 2027
+        </div>
+
+        <div>
+
+            <h3>
+                Bachelor of Technology
+            </h3>
+
+            <p>
+                Electronics / Electronics & Communication Engineering
+            </p>
+
+            <span>
+                4th Year
+            </span>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= CONTACT ================= -->
+
+<section id="contact" class="contact-section">
+
+    <div class="contact-container">
+
+        <div class="section-heading">
+
+            <p>06 — CONTACT</p>
+
+            <h2>
+                Let's Build Something
+                <span>Great</span>
+            </h2>
+
+        </div>
+
+
+        <p class="contact-description">
+
+            Whether you want to discuss an embedded project,
+            VLSI design, collaboration or an opportunity,
+            feel free to get in touch.
+
+        </p>
+
+
+        <div class="contact-buttons">
+
+            <a href="mailto:alakdas@example.com"
+               class="btn primary">
+
+                Email Me →
+
+            </a>
+
+            <a href="#"
+               class="btn secondary">
+
+                LinkedIn
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+    <div>
+
+        <a href="#home" class="logo">
+            <span>&lt;</span>ALAK<span>/&gt;</span>
+        </a>
+
+        <p>
+            VLSI Designer • Embedded Engineer
+        </p>
+
+    </div>
+
+    <p>
+        © 2026 Alak Das. All rights reserved.
+    </p>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
